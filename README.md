@@ -1,4 +1,4 @@
-# Android device tree for blackberry None (bbf100)
+# Android device tree for BlackBerry Key2 LE (bbf100)
 
 ```
 #
