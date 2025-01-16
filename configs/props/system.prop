@@ -1,4 +1,5 @@
 DEVICE_PROVISIONED=1
+ro.product.device=bbf100
 bt.max.hfpclient.connections=1
 camera.aux.packagelist=org.codeaurora.snapcam,com.blackberry.camera,com.blackberry.camera.debug,com.android.mmi
 config.cabl.path=/vendor/etc/CABLConfig.xml

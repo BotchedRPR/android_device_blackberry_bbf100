@@ -49,7 +49,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
-    init.rc \
     init.recovery.hlthchrg.rc \
     init.recovery.ldconfig.rc \
     init.recovery.logd.rc \
@@ -62,7 +61,6 @@ PRODUCT_PACKAGES += \
     init.recovery.services.qcom_decrypt.fbe.rc \
     init.recovery.services.qcom_decrypt.rc \
     init.recovery.usb.rc \
-    ueventd.rc \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

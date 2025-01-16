@@ -219,7 +219,6 @@ lib64/libscveObjectTracker_stub.so
 lib64/libscvePanorama.so
 lib64/libscvePanorama_lite.so
 lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
 vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/camera.sdm660.so
@@ -2146,7 +2145,6 @@ vendor/etc/camera/s5k4h7_luna_chromatix.xml
 vendor/etc/camera/s5k4h7_minerva_chromatix.xml
 
 # CAS
-vendor/bin/hw/android.hardware.cas@1.0-service
 vendor/etc/init/android.hardware.cas@1.0-service.rc
 
 # CDSP
@@ -2254,8 +2252,6 @@ lib64/vendor.display.config@1.0.so
 lib64/vendor.display.config@1.1.so
 lib64/vendor.display.postproc@1.0.so
 lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
@@ -2386,7 +2382,6 @@ vendor/lib64/libdpmqmihal.so
 vendor/lib64/libqmi_client_helper.so
 
 # DRM
-vendor/bin/hw/android.hardware.drm@1.0-service
 vendor/bin/hw/android.hardware.drm@1.0-service.widevine
 vendor/etc/init/android.hardware.drm@1.0-service.rc
 vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
@@ -2436,7 +2431,6 @@ vendor/firmware/widevine.b07
 vendor/firmware/widevine.mdt
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/qfp-daemon
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
@@ -2569,20 +2563,17 @@ vendor/lib/hw/local_time.default.so
 vendor/lib64/hw/local_time.default.so
 
 # Media
-etc/seccomp_policy/mediacodec.policy
 lib/libFileMux.so
 lib/libOmxMux.so
 lib/libmmosal.so
 lib/libmmparser_lite.so
 lib/libstagefright_soft_qtiflacdec.so
-lib/libstagefright_wfd.so
 lib/vendor.qti.hardware.vpp@1.1.so
 lib64/libFileMux.so
 lib64/libOmxMux.so
 lib64/libmmosal.so
 lib64/libmmparser_lite.so
 lib64/libstagefright_soft_qtiflacdec.so
-lib64/libstagefright_wfd.so
 lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
@@ -3095,7 +3086,6 @@ vendor/bin/athdiag
 vendor/bin/audioflacapp
 vendor/bin/btnvtool
 vendor/bin/cnss_diag
-vendor/bin/cplay
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
 vendor/bin/diag_klog
@@ -3849,8 +3839,6 @@ vendor/media/LMspeed_508.emd
 vendor/media/PFFprec_600.emd
 vendor/package/CTA/system/vendor/vendor.prop
 vendor/package/CTA/.preloadspec
-vendor/compatibility_matrix.xml
 vendor/libnfc-nxp_RF.conf
 vendor/libnfc-nxp_RF_japan.conf
-vendor/manifest.xml
 vendor/ueventd.rc
